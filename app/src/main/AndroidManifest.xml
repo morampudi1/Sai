@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.welcome.sai">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/car"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Indicator.SplashActivity"></activity>
+        <activity android:name=".Indicator.WelcomeActivity" />
+        <activity android:name=".Indicator.SingleActivity" />
+        <activity android:name=".Indicator.Login" />
+        <activity android:name=".Indicator.RegistrationActivity" />
+        <activity android:name=".Indicator.GridviewActivity" />
+        <activity android:name=".Indicator.CirculaActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Indicator.RecyclarActivity"></activity>
+    </application>
+
+</manifest>
